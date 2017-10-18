@@ -1,0 +1,264 @@
+/*STYLE*/
+.row {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*ALL*/
+
+.navigation{
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
+button.accordion {
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 50px;
+    text-align: center;
+    border: none;
+    transition: 0.4s;
+    border-radius: 25px;
+    float: right;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: black;
+    color: orange;
+}
+
+.nav {
+    padding: 20px;
+    background-color: black;
+    color: orange;
+    display: none;
+    float: right;
+}
+
+/*LOGIN*/
+
+#backg{
+    width: 100%;
+    min-height: 760px;
+    background: url(../img/backss.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#logo img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+#welcome button{
+    margin-top: 20px;
+}
+
+#welcome{
+    float: left;
+}
+
+#pop{
+    float: right;
+}
+
+#popcorn{
+    float: left;
+}
+
+#login{
+    width: 300px;
+    height: 600px;
+    margin-top: 50px;
+    background: url(../img/black.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+
+form{
+    margin-left: 30px;
+    color: orange;
+}
+
+button{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.name{
+    margin-left: 65px;
+}
+
+.password{
+    margin-left: 65px;
+}
+
+.mail2{
+    margin-left: 10px;
+}
+
+input{
+    margin-left: 25px;
+}
+
+.mail2{
+    margin-left: 40px;
+}
+
+/*HOME*/
+
+#backg2{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    background: url(../img/backss.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.backbox{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    background: url(../img/black.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+
+#Movies{
+    float: left;
+    padding-left: 70px;
+}
+
+#Series{
+    float: left;
+    padding-left: 70px;
+}
+
+#Cartoons{
+    float: left;
+    padding-left: 70px;
+}
+
+.list img{
+    width: 100px;
+    height: 170px;
+}
+
+#welcome h1, h2, h3{
+    color: orange;
+    padding-left: 55px;
+    padding-right: 25px;
+}
+
+#pop{
+    padding-right: 15px;
+}
+
+/*LIBRARY*/
+
+#backg3{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    background: url(../img/backss.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.backbox3{
+    width: 100%;
+    min-height: 3880px;;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    background: url(../img/black.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+
+.filtercontent{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.well{
+    margin-top: 10px;
+}
+
+#list h5{
+    margin-left: -15px;
+}
+
+/*WATCH*/
+
+#backg4{
+    width: 100%;
+    min-height: 860px;
+    background: url(../img/backss.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.backbox2{
+    width: 100%;
+    min-height: 835px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    background: url(../img/black.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+
+#message .alert{
+    margin-left: 40px;
+}
+
+#Movies h5{
+    margin-left: -15px;
+}
+
+#Movies button{
+    margin-left: -5px;
+    margin-right: 5px;
+}
+
+#Series h5{
+    margin-left: -15px;
+}
+
+#Series button{
+    margin-left: -5px;
+    margin-right: 5px;
+}
+
+#Cartoons h5{
+    margin-left: -15px;
+}
+
+#Cartoons button{
+    margin-left: -5px;
+    margin-right: 5px;
+}
+
+/*TEXT*/
+h1{
+    text-align: center;
+}
+
+h5{
+    padding-left: 20px;
+    font-size: 10px;
+}
+
+a{
+    color: darkorange;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="jquery/1.12.0/jquery.min.js"></script>
+        <script src="bootstrap/3.3.6/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="css/main.css">
+        <title>G.Y.M. | Surprise</title>
+    </head>
+    <body>
+        <div class="container">
+           
+            <div class="navigation">
+                <button class="accordion"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+                <ul class="nav">
+                    <div class="home"><li><a href="home.html">Home</a></li></div>
+                    <div class="lib"><li><a href="library.html">Library</a></li></div>
+                    <div class="watch"><li><a href="watch.html">Watch List</a></li></div>
+                    <div class="surprise"><li><a href="surprise.html">Surprise Me!</a></li></div>
+                </ul>
+            </div> <!--navigation-->
+            
+            <div id="welcome" class="row">
+                <div>
+                    <div id="message" class="col-xs-12 col-lg-12">
+                       <h1>Can't decide? RANDOMISE!</h1>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="randomise" class="row">
+                <button onclick="callrandom()">Surprise Me!</button>
+                <div id ="random" class ="output"></div>
+            </div>
+            
+            </div> 
+        
+        <script src="js/surprise.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>

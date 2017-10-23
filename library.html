@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="bootstrap/3.3.6/css/bootstrap.min.css">
-        <script src="jquery/1.12.0/jquery.min.js"></script>
-        <script src="bootstrap/3.3.6/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="bootstrap/3.3.6/css/bootstrap.min.css"> <script src="jquery/1.12.0/jquery.min.js"></script>
+        <script src="bootstrap/3.3.6/js/bootstrap.min.js"></script>
         
         <link rel="stylesheet" href="css/main.css">
         <title>G.Y.M. | Library</title>
@@ -43,29 +42,32 @@
                <div class="filtercontent">
                    <select name="filter" id="filter"> 
                                     <option>---</option>
-                                    <option value="rate">User 80-85</option> 
-                                    <option value="rate">User 86-90</option> 
-                                    <option value="rate">User 91-95</option> 
-                                    <option value="rate">User 96-100</option> 
-                                    <option value="IMDB">IMDB 7.0-7.9</option>  
-                                    <option value="IMDB">IMDB 8.0-8.9</option> 
-                                    <option value="IMDB">IMDB 9.0-9.9</option>
-                                    <option value="genre">Adventure</option>
-                                    <option value="genre">Comedy</option>
-                                    <option value="genre">Drama</option> 
-                                    <option value="genre">Horror</option>
-                                    <option value="genre">Mystery</option>
-                                    <option value="genre">Romance</option>
-                                    <option value="genre">SciFi</option>
-                                    <option value="genre">Sitcom</option>
-                                    <option value="genre">Superhero</option>
-                                    <option value="genre">Thriller</option>
+                                    <option value="ALL">All Movies</option> 
+                                    <option value="rate1">User 80-85</option> 
+                                    <option value="rate2">User 86-90</option> 
+                                    <option value="rate3">User 91-95</option> 
+                                    <option value="rate4">User 96-100</option> 
+                                    <option value="IMDB1">IMDB 7.0-7.9</option>  
+                                    <option value="IMDB2">IMDB 8.0-8.9</option> 
+                                    <option value="IMDB3">IMDB 9.0-9.9</option>
+                                    <option value="genre1">Adventure</option>
+                                    <option value="genre2">Comedy</option>
+                                    <option value="genre3">Drama</option> 
+                                    <option value="genre4">Horror</option>
+                                    <option value="genre5">Mystery</option>
+                                    <option value="genre6">Romance</option>
+                                    <option value="genre7">SciFi</option>
+                                    <option value="genre8">Sitcom</option>
+                                    <option value="genre9">Superhero</option>
+                                    <option value="genre10">Thriller</option>
                                     <option value="70">1970s</option> 
                                     <option value="80">1980s</option>
                                     <option value="90">1990s</option>
                                     <option value="00">2000s</option>
                                     <option value="10">2010s</option>
                    </select>
+                   
+                   <input id="filterSubmit" type="submit" name="submit" value="filter">
                    
                    
                </div>
@@ -76,7 +78,7 @@
                     
                 <div id="list" class="row latest">
                     
-                    <div id="choice1" div class="description col-xs-6 col-md-4 col-lg-3" data-category="super, 10, 90, 7">
+                    <div id="choice1" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="sup" data-category="10s" data-category="90" data-category="7">
                    <img src="img/ww.jpg" class="img-responsive img-circle" alt="movie1" height="236">
                         <div class="well well-sm"><h5>Wonder Woman</h5>
                             <h5>(2017)</h5>
@@ -84,7 +86,7 @@
                         <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
                     </div>
                     
-                    <div id="choice2" div class="description col-xs-6 col-md-4 col-lg-3"  data-category="drama, comedy, 10, 95, 8">
+                    <div id="choice2" div class="choice col-xs-6 col-md-4 col-lg-3"  data-category="dra" data-category="com" data-category="10s" data-category="95" data-category="8">
                    <img src="img/tiu.jpg" class="img-responsive img-circle" alt="series1" height="236">
                         <div class="well well-sm"><h5>This Is Us</h5>
                             <h5>(2017)</h5>
@@ -92,7 +94,7 @@
                         <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
                     </div>
                     
-                    <div id="choice3" div class="description col-xs-6 col-md-4 col-lg-3"  data-category="super, 10, 90, 7">
+                    <div id="choice3" div class="choice col-xs-6 col-md-4 col-lg-3"  data-category="mys" data-category="10s" data-category="95" data-category="7">
                    <img src="img/riv.jpg" class="img-responsive img-circle" alt="cartoon1" height="236">
                         <div class="well well-sm"><h5>Riverdale</h5>
                             <h5>(2017)</h5>
@@ -100,7 +102,7 @@
                         <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
                     </div>
                     
-                    <div id="choice4" div class="description col-xs-6 col-md-4 col-lg-3" data-category="super, 10, 90, 7">
+                    <div id="choice4" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="com" data-category="sit" data-category="10s" data-category="100" data-category="9">
                    <img src="img/rnm.jpg" class="img-responsive img-circle" alt="movie1" height="236">
                         <div class="well well-sm"><h5>Rick and Morty</h5>
                             <h5>(2017)</h5>
@@ -108,7 +110,7 @@
                         <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
                     </div>
                     
-                    <div id="choice5" div class="description col-xs-6 col-md-4 col-lg-3" data-category="super, 10, 90, 7">
+                    <div id="choice5" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="adv" data-category="10s" data-category="95" data-category="8">
                    <img src="img/at.jpg" class="img-responsive img-circle" alt="series1" height="236">
                         <div class="well well-sm"><h5>Adventure Time</h5>
                             <h5> (2017)</h5>
@@ -116,7 +118,7 @@
                         <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
                     </div>
                     
-                    <div id="choice6" div class="description col-xs-6 col-md-4 col-lg-3" data-category="super, 10, 90, 7">
+                    <div id="choice6" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="sit" data-category="10s" data-category="95" data-category="8">
                    <img src="img/fg.jpg" class="img-responsive img-circle" alt="cartoon1" height="236">
                         <div class="well well-sm"><h5>Family Guy</h5>
                             <h5> (2017)</h5>
@@ -124,7 +126,7 @@
                         <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
                     </div>
                     
-                    <div id="choice7" div class="description col-xs-6 col-md-4 col-lg-3" data-category="super, 10, 90, 7">
+                    <div id="choice7" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="dra" data-category="10s" data-category="90" data-category="7">
                    <img src="img/bb.jpg" class="img-responsive img-circle" alt="movie1" height="236">
                         <div class="well well-sm"><h5>Breaking Bad</h5>
                             <h5> (2013)</h5>
@@ -132,7 +134,7 @@
                         <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
                     </div>
                     
-                    <div id="choice8" div class="description col-xs-6 col-md-4 col-lg-3"  data-category="super, 10, 90, 7">
+                    <div id="choice8" div class="choice col-xs-6 col-md-4 col-lg-3"  data-category="sup" data-category="10s" data-category="90" data-category="8">
                    <img src="img/ave.jpg" class="img-responsive img-circle" alt="series1" height="236">
                         <div class="well well-sm"><h5>The Avengers</h5>
                             <h5>(2012)</h5>
@@ -140,7 +142,7 @@
                         <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
                     </div>
                     
-                    <div id="choice9" div class="description col-xs-6 col-md-4 col-lg-3" data-category="super, 10, 90, 7">
+                    <div id="choice9" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="sci" data-category="00s" data-category="90" data-category="7">
                    <img src="img/ava.jpg" class="img-responsive img-circle" alt="cartoon1" height="236">
                         <div class="well well-sm"><h5>Avatar </h5>
                             <h5>(2007)</h5>
@@ -148,7 +150,7 @@
                         <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
                     </div>
                     
-                    <div id="choice10" div class="description col-xs-6 col-md-4 col-lg-3" data-category="super, 10, 90, 7">
+                    <div id="choice10" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="dra" data-category="00s" data-category="95" data-category="8">
                    <img src="img/70.jpg" class="img-responsive img-circle" alt="movie1" height="236">
                         <div class="well well-sm"><h5>That 70s Show </h5>
                             <h5>(2006)</h5>
@@ -156,7 +158,7 @@
                         <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
                     </div>
                     
-                    <div id="choice11" div class="description col-xs-6 col-md-4 col-lg-3" data-category="super, 10, 90, 7">
+                    <div id="choice11" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="hor" data-category="00s" data-category="95" data-category="8">
                    <img src="img/ctcd.jpg" class="img-responsive img-circle" alt="series1" height="236">
                         <div class="well well-sm"><h5>Courage</h5>
                             <h5> (2002)</h5>
@@ -164,7 +166,7 @@
                         <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
                     </div>
                     
-                    <div id="choice12" div class="description col-xs-6 col-md-4 col-lg-3" data-category="super, 10, 90, 7">
+                    <div id="choice12" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="thr" data-category="00s" data-category="90" data-category="8">
                    <img src="img/mom.jpg" class="img-responsive img-circle" alt="cartoon1" height="236">
                         <div class="well well-sm"><h5>Momento </h5>
                             <h5>(2000)</h5>
@@ -172,7 +174,7 @@
                         <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
                     </div>
                     
-                    <div id="choice13" div class="description col-xs-6 col-md-4 col-lg-3" data-category="super, 10, 90, 7">
+                    <div id="choice13" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="rom" data-category="com" data-category="10s" data-category="95" data-category="8">
                    <img src="img/fgp.jpg" class="img-responsive img-circle" alt="cartoon1" height="236">
                         <div class="well well-sm"><h5>Forrest Gump </h5>
                             <h5>(1994)</h5>
@@ -180,7 +182,7 @@
                         <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
                     </div>
                     
-                    <div id="choice14" div class="description col-xs-6 col-md-4 col-lg-3" data-category="super, 10, 90, 7">
+                    <div id="choice14" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="thr" data-category="90s" data-category="90" data-category="8">
                    <img src="img/pf.jpg" class="img-responsive img-circle" alt="cartoon1" height="236">
                         <div class="well well-sm"><h5>Pulp Fiction </h5>
                             <h5>(1994)</h5>
@@ -188,7 +190,7 @@
                         <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
                     </div>
                     
-                    <div id="choice15" div class="description col-xs-6 col-md-4 col-lg-3" data-category="super, 10, 90, 7">
+                    <div id="choice15" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="dra" data-category="com" data-category="80s" data-category="95" data-category="7">
                    <img src="img/bc.jpg" class="img-responsive img-circle" alt="cartoon1" height="236">
                         <div class="well well-sm"><h5>Breakfast Club </h5>
                             <h5>(1985)</h5>
@@ -196,7 +198,7 @@
                         <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
                     </div>
                     
-                    <div id="choice16" div class="description col-xs-6 col-md-4 col-lg-3" data-category="super, 10, 90, 7">
+                    <div id="choice16" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="adv" data-category="mys" data-category="80s" data-category="85" data-category="7">
                    <img src="img/et.jpg" class="img-responsive img-circle" alt="cartoon1" height="236">
                         <div class="well well-sm"><h5>E.T. </h5>
                             <h5>(1982)</h5>
@@ -204,7 +206,7 @@
                         <button class="btn btn-warning"><span class="glyphicon glyphicon-heart"></span></button></div>
                     </div>
                     
-                    <div id="choice17" div class="description col-xs-6 col-md-4 col-lg-3" data-category="super, 10, 90, 7">
+                    <div id="choice17" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="sci" data-category="mys" data-category="70s" data-category="95" data-category="8">
                    <img src="img/sw.jpg" class="img-responsive img-circle" alt="cartoon1" height="236">
                         <div class="well well-sm"><h5>Star Wars </h5>
                             <h5>(1977)</h5>
@@ -212,7 +214,7 @@
                         <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
                     </div>
                     
-                    <div id="choice18" div class="description col-xs-6 col-md-4 col-lg-3" data-category="super, 10, 90, 7">
+                    <div id="choice18" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="dra" data-category="mys" data-category="70s" data-category="90" data-category="8">
                    <img src="img/js.jpg" class="img-responsive img-circle" alt="cartoon1" height="236">
                         <div class="well well-sm"><h5>Jaws </h5>
                             <h5>(1975)</h5>
@@ -220,7 +222,27 @@
                         <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
                     </div>
                 </div>
+                
+                <div id="forms1" class="col-12">
+                        <h2>Request a Show</h2>
+
+                        <div class="name">
+                            <form name="name"> 
+                                <label for="name">Show Name:</label> 
+                                <input id="name" type="text"> 
+                            </form>
+                    </div>
+                        
+                        <div class="button1">
+                            <button type="button" onclick="request()">Request!</button>
+                        </div>
+                        
+                        <div id="showrequested"></div>
+                    </div>
+                
             </div> <!--movies-->
+                
+            
         
         </div>
         </div>

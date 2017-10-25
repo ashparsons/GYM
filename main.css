@@ -272,6 +272,163 @@ input{
     margin-right: 5px;
 }
 
+/*MOVIE PAGES*/
+
+#info{
+    width: 100%;
+    text-align: center;
+}
+
+#information{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#backg5{
+    width: 100%;
+    min-height: 890px;
+    background: url(../img/wonderw.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#backg6{
+    width: 100%;
+    min-height: 890px;
+    background: url(../img/ThisisUs-S2-ShowImage-1920x1080-KO.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#backg7{
+    width: 100%;
+    min-height: 890px;
+    background: url(../img/landscape-1493164396-untitled.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#backg8{
+    width: 100%;
+    min-height: 890px;
+    background: url(../img/6360498178139720611073070814_Rick%20and%20Morty.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#backg9{
+    width: 100%;
+    min-height: 890px;
+    background: url(../img/adventure_time.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#backg10{
+    width: 100%;
+    min-height: 890px;
+    background: url(../img/6-family-pt.-1__120614222311.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#backg11{
+    width: 100%;
+    min-height: 890px;
+    background: url(../img/BB_FinalEps.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#backg12{
+    width: 100%;
+    min-height: 890px;
+    background: url(../img/rFtsE7Lhlc2jRWF7SRAU0fvrveQ.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#backg13{
+    width: 100%;
+    min-height: 890px;
+    background: url(../img/Avatar-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#backg14{
+    width: 100%;
+    min-height: 890px;
+    background: url(../img/5760_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#backg15{
+    width: 100%;
+    min-height: 890px;
+    background: url(../img/cou.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#backg16{
+    width: 100%;
+    min-height: 890px;
+    background: url(../img/rs-216690-MSDMEME_EC005_H.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#backg17{
+    width: 100%;
+    min-height: 890px;
+    background: url(../img/forrest-gump.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#backg18{
+    width: 100%;
+    min-height: 890px;
+    background: url(../img/ffc39ebe6c87b384c277ca8ce3a63ba4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#backg19{
+    width: 100%;
+    min-height: 890px;
+    background: url(../img/the-breakfast-club-DI-06.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#backg20{
+    width: 100%;
+    min-height: 890px;
+    background: url(../img/et_the_extra_terrestrial_thumb800.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#backg21{
+    width: 100%;
+    min-height: 890px;
+    background: url(../img/7773769005_star-wars.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#backg22{
+    width: 100%;
+    min-height: 890px;
+    background: url(../img/jawsrevenge1987.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
 /*TEXT*/
 h1{
     text-align: center;
@@ -280,6 +437,11 @@ h1{
 h5{
     padding-left: 20px;
     font-size: 10px;
+}
+
+#information h5{
+    color: orange;
+    font-size: 20px;
 }
 
 a{

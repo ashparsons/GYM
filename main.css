@@ -44,7 +44,7 @@ button.accordion.active, button.accordion:hover {
     min-height: 760px;
     background: url(../GYM/img/africawall.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center; 
 }
 
 #logo img{
